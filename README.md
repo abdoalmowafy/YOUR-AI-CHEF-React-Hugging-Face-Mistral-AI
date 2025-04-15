@@ -24,10 +24,10 @@
 ## 🛠️ Installation
 
 1. **Clone the repo**
-   ```bash
-   git clone https://github.com/abdoalmowafy/YOUR-AI-CHEF-React-Hugging-Face-Mistral-AI
-   cd your-ai-chef
-   ```
+```bash
+git clone https://github.com/abdoalmowafy/YOUR-AI-CHEF-React-Hugging-Face-Mistral-AI
+cd your-ai-chef
+```
 
 2. **Install dependencies**
 ```bash
@@ -35,13 +35,13 @@ npm install
 ```
 
 3. **Configure environment variables Create a .env file in the root directory and add your Hugging Face API key**
-   ```bash
+```bash
    VITE_HF_ACCESS_TOKEN=your_huggingface_api_key
-   ```
+```
 
 4. **Run the development server**
 ```bash
-   npm run dev
+npm run dev
 ```
 
 ---
