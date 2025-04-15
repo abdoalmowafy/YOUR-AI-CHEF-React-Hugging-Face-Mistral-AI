@@ -1,12 +1,87 @@
-# React + Vite
+# 👨‍🍳 YOUR AI CHEF
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**YOUR AI CHEF** is a smart cooking assistant built with **React** and powered by **Hugging Face's Mistral AI API**. It acts as your personal AI chef — helping you create recipes, meal plans, and ingredient substitutions using natural language input.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🧠 AI-powered recipe generation
+- 🥗 Custom meal planning based on dietary preferences
+- 🔄 Smart ingredient substitutions
+- 💬 Natural language interface
+- ⚛️ Built with React for a seamless user experience
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🔧 Tech Stack
+
+- **Frontend**: React, Tailwind CSS (optional)
+- **AI Model**: Mistral via Hugging Face API
+- **API Integration**: RESTful API calls to Hugging Face
+
+---
+
+## 🛠️ Installation
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/abdoalmowafy/YOUR-AI-CHEF-React-Hugging-Face-Mistral-AI
+   cd your-ai-chef
+   ```
+
+2. **Install dependencies**
+```bash
+npm install
+```
+
+3. **Configure environment variables Create a .env file in the root directory and add your Hugging Face API key**
+   ```bash
+   VITE_HF_ACCESS_TOKEN=your_huggingface_api_key
+   ```
+
+4. **Run the development server**
+```bash
+   npm run dev
+```
+
+---
+
+## ✨ Usage
+
+Type in your cooking-related question or request in 5 cooking ingredients, such as:
+
+- *"All Spices"*
+- *"Chicken"*
+- *"Butter"*
+- *"Rice"*
+- *"All herps"*
+
+Click generate recipees and let **YOUR AI CHEF** do the rest!
+
+---
+
+## 📸 Screenshots
+
+![App Screenshot1](./public/screenshots/Screenshot1.png)
+![App Screenshot2](./public/screenshots/Screenshot2.png)
+![App Screenshot3](./public/screenshots/Screenshot3.jpeg)
+
+---
+
+## 🤖 Powered By
+
+- [React](https://reactjs.org/)
+- [Mistral AI on Hugging Face](https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1)
+
+---
+
+
+
+## 💡 Future Plans
+
+- Voice command integration
+- Save and share recipes
+- User profiles with dietary preferences
+
+---
