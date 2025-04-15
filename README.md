@@ -16,9 +16,8 @@
 
 ## 🔧 Tech Stack
 
-- **Frontend**: React, Tailwind CSS (optional)
+- **Frontend**: React + JavaScript + CSS
 - **AI Model**: Mistral via Hugging Face API
-- **API Integration**: RESTful API calls to Hugging Face
 
 ---
 
