@@ -16,7 +16,7 @@
 
 ## 🔧 Tech Stack
 
-- **Frontend**: React + JavaScript + CSS
+- **Frontend**: ReactJS + ReactDOM + react-markdown + CSS + HTML
 - **AI Model**: Mistral via Hugging Face API
 
 ---
@@ -36,7 +36,7 @@ npm install
 
 3. **Configure environment variables Create a .env file in the root directory and add your Hugging Face API key**
 ```bash
-   VITE_HF_ACCESS_TOKEN=your_huggingface_api_key
+VITE_HF_ACCESS_TOKEN=your_huggingface_api_key
 ```
 
 4. **Run the development server**
